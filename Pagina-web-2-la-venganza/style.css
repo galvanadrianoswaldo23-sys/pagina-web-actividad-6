@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0c0029;
+  color: #c4c4c4;
+}
+
+header {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+}
+
+header img {
+  width: 80px;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  color: #f0c000;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f0c000;
+}
+
+main {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #f0c000dd;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.sistema{  width: 600px;
+  height: 750px;
+}
+.niot{
+  width: 600px;
+  height: 750px;
+}
+.enjambre{
+  width: 1200px;
+  height: 750px;
+   overflow: hidden;
+}
+.traidores{
+  width: 1200px;
+  height: 750px;
+   overflow: hidden;
+}
+.horro{
+  width: 1200px;
+  height: 750px;
+}
+.Enconclusión{
+  width: 1200px;
+  height: 750px;
+   overflow: hidden;
+}
+.guerra{
+  width: 1200px;
+  height: 750px;
+   overflow: hidden;
+}
+    .contenedor {
+      display: flex;        
+      justify-content: space-between; 
+      align-items: flex-start; 
+    }
+    .texto {
+      flex: 1;                   
+      margin-right: 20px;        
+    }
+    .imagen {
+      width: auto;      
+      height: 350px;  
+    }
